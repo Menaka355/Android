@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mealsplan">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="315dp"
+        android:layout_height="40dp"
+        android:text="Food Habits"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck" />
+
+
+
+
+
+    <!-- Instruction TextView -->
+
+
+    <!-- CardView for Nutrition Information -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="16dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31"
+        tools:ignore="TextSizeCheck">
+
+        <!-- RelativeLayout within CardView -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/m1"
+            android:backgroundTint="@color/pink"
+            tools:ignore="ExtraText">
+
+            <!-- Nutrition Title -->
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="5dp"
+                android:text="Nutrition"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <!-- Month 1 Information -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="40dp"
+                android:text="Month 1"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <!-- Food Image -->
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="56dp"
+                android:layout_height="54dp"
+                android:layout_marginTop="24dp"
+                app:srcCompat="@drawable/food"
+                tools:ignore="ContentDescription" />
+            <!-- Description Box for Month 1 -->
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="340dp"
+                android:layout_height="103dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="80dp"
+                android:background="#807E7E"
+                tools:ignore="RtlHardcoded,VisualLintOverlap" />
+
+            <!-- Description Text for Month 1 -->
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="92dp"
+                android:text="Your baby’s brain and spinal cord are developing. To help, eat more foods that are rich in folate."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+            <!-- Foods List for Month 1 -->
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="130dp"
+                android:text="This includes: Leafy vegetables, fortified whole grains, avocado, sweet potato, chicken"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+            <!-- Month 2 Information -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="198dp"
+                android:text="Month 2"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <!-- Description Box for Month 2 -->
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="350dp"
+                android:layout_height="190dp"
+                android:layout_below="@+id/textView15"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="61dp"
+                android:background="#807E7E"
+                tools:ignore="RtlHardcoded,VisualLintOverlap" />
+
+            <!-- Foods Description for Month 2 -->
+
+            <TextView
+                android:layout_width="329dp"
+                android:layout_height="147dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="300dp"
+                android:text="Your baby's bones are hardening. To help, eat foods that are:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck,VisualLintOverlap" />
+
+            <!-- Calcium-Rich Foods Text -->
+            <TextView
+                android:layout_width="348dp"
+                android:layout_height="130dp"
+                android:layout_alignTop="@+id/textView14"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="3dp"
+                android:text="Rich in calcium: Some of the best sources of calcium are dairy foods like milk, cheese, and yogurt. sesame seeds are also good options."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+            <!-- Folate-Rich Foods Text -->
+            <TextView
+                android:layout_width="329dp"
+                android:layout_height="70dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="355dp"
+                android:text="Rich in folate: Some of the best sources of folate are leafy vegetables like turnip greens, spinach, romaine lettuce, asparagus, Brussels sprouts, and broccoli."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+            <!-- Next Button -->
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/darkred"
+                android:text="Next"
+                android:textColor="@color/black"
+                android:background="@drawable/button_bg"
+                tools:ignore="HardcodedText,TextContrastCheck" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

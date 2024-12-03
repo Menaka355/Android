@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MealsP4">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="315dp"
+        android:layout_height="40dp"
+        android:text="Food_habits"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.033"
+        tools:ignore="MissingConstraints,TextSizeCheck" />
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="500dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="150dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31" android:layout_width="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/m1"
+            tools:ignore="ExtraText">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="5dp"
+                android:text="nutrition"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="161dp"
+                android:text="month_7"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="56dp"
+                android:layout_height="54dp"
+                android:layout_marginTop="24dp"
+                app:srcCompat="@drawable/food"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="20dp"
+                android:background="#807E7E"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="92dp"
+                android:text="@string/your_baby_s_brain_and_vision_are_rapidly_developing_they_need_good_fat_to_help_them_grow"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="130dp"
+                android:text="@string/good_fat_can_be_found_in_nuts_oilseeds_fish_and_a_variety_of_cooking_oils_mustard_oil_groundnut_oil_soybean_oil_and_coconut_oil"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="185dp"
+                android:text="@string/avoid_bad_fat_like_margarine_and_reused_oil"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="250dp"
+                android:layout_marginLeft="30dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="month_8_9"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="190dp"
+                android:layout_marginTop="290dp"
+                android:layout_marginLeft="20dp"
+                android:background="#807E7E"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:layout_width="329dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="300dp"
+                android:text="Your baby is gaining more weight and their brain and lungs are continuing to develop. Eat foods that are dense in energy during this time:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+            <TextView
+                android:layout_width="329dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="355dp"
+                android:text="Cereals: Wheat, rice."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+            <TextView
+                android:layout_width="329dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="372dp"
+                android:text="Pulses: Green gram and soya beans."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+            <TextView
+                android:layout_width="329dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="389dp"
+                android:text="Milk and milk products."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+            <TextView
+                android:layout_width="329dp"
+                android:layout_height="34dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="405dp"
+                android:text="Cooking oils: Mustard oil, soyabean oil, groundnut oil and coconut oil."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+            <TextView
+                android:layout_width="329dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="440dp"
+                android:text="Nuts and oilseeds: Sesame seeds, groundnuts, flax seeds and jaggery."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="470dp"
+                android:background="@drawable/m2"
+                android:text="Next"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck"
+                tools:layout_editor_absoluteX="79dp"
+                tools:layout_editor_absoluteY="551dp" />
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

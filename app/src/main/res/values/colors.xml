@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#F18BF3</color>
+    <color name="darkpink">#E17CAD</color>
+    <color name="blue">#CAF1EA</color>
+    <color name="darkblue">#0D3FF0</color>
+    <color name="darkred">#CA1B1B</color>
+    <color name="lightpink">#FFC0CB</color> <!-- Light pink color -->
+    <color name="gray">#808080</color>
+    <color name="darker_gray">#A9A9A9</color>
+    <color name="your_color_here">#FF0000</color>
+    <color name="Green">#4CAF50</color>
+    <color name="Orange">#FF5722</color>
+</resources>

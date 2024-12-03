@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Request permission to read external storage -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/pe_removebg_preview_3"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/pe_removebg_preview_3"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MomsCare"
+        tools:targetApi="31">
+        <activity
+            android:name=".FoodsHabbits"
+            android:exported="false" />
+        <activity
+            android:name=".Bumpy"
+            android:exported="false" />
+        <activity
+            android:name=".FoodHabits"
+            android:exported="false" />
+        <activity
+            android:name=".ClinicDatesUpdater2"
+            android:exported="false" />
+        <activity
+            android:name=".ClinicDates"
+            android:exported="false" />
+        <activity
+            android:name=".ClinicDatesUpdater"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".MealsP4"
+            android:exported="false" />
+        <activity
+            android:name=".MealsP3"
+            android:exported="false" />
+        <activity
+            android:name=".MealsP2"
+            android:exported="false" />
+        <activity
+            android:name=".AbouttheVaccines"
+            android:exported="false" />
+        <activity
+            android:name=".MyVaccinesdates"
+            android:exported="false" />
+        <activity
+            android:name=".VaccinesOptions"
+            android:exported="false" />
+        <activity
+            android:name=".Vaccines"
+            android:exported="false" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".CreateAccountwithPregnancyDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Mealsplan"
+            android:exported="false" />
+        <activity
+            android:name=".SecondWelcomePage"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateAccountPage"
+            android:exported="false" />
+        <activity
+            android:name=".EmergencyCall"
+            android:exported="false" />
+        <activity
+            android:name=".BmiCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

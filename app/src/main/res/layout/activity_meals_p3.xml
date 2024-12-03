@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MealsP3">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="315dp"
+        android:layout_height="40dp"
+        android:text="Food_habits"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.021"
+        tools:ignore="MissingConstraints,TextSizeCheck" />
+
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="500dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="150dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.31" android:layout_width="0dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/m1"
+            tools:ignore="ExtraText">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="5dp"
+                android:text="Nutrition"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="60dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="month_5"
+                tools:ignore="RtlHardcoded" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="56dp"
+                android:layout_height="54dp"
+                android:layout_marginTop="24dp"
+                app:srcCompat="@drawable/food"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="184dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="20dp"
+                android:background="#807E7E"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:layout_width="339dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="88dp"
+                android:layout_marginRight="0dp"
+                android:text="@string/your_baby_is_growing_rapidly_and_their_muscles_and_skin_are_forming_make_sure_you_re_eating_foods_that_are_rich_in_energy_and_protein_including"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="339dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginRight="0dp"
+                android:text="@string/wheat_flour_coarse_grains_rice_maize_and_lentils"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+
+            <TextView
+                android:layout_width="339dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="160dp"
+                android:layout_marginRight="0dp"
+                android:text="@string/sweet_potato_banana_and_jaggery_natural_sugar"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="339dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="180dp"
+                android:layout_marginRight="0dp"
+                android:text="@string/milk_skimmed_milk_powder_and_cottage_cheese"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="339dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="199dp"
+                android:layout_marginRight="0dp"
+                android:text="@string/lentils_soya_eggs_chicken_and_fish"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:layout_width="339dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="218dp"
+                android:layout_marginRight="0dp"
+                android:text="@string/nuts_and_oilseeds_these_can_be_powdered_and_added_to_food"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="270dp"
+                android:layout_marginLeft="30dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="month_6"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="175dp"
+                android:layout_marginTop="310dp"
+                android:layout_marginLeft="20dp"
+                android:background="#807E7E"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:layout_width="329dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="316dp"
+                android:text="Your baby’s eyes are developing. Help them grow by eating foods rich in Vitamin A, including:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+            <TextView
+                android:layout_width="329dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="350dp"
+                android:text="Green leafy vegetables: Like drumstick leaves and fenugreek leaves."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+            <TextView
+                android:layout_width="329dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="380dp"
+                android:text="Yellow and orange fruits and vegetables: Like papaya, tomato, musk melon, carrot, sweet potato and pumpkin."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+            <TextView
+                android:layout_width="329dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="430dp"
+                android:text="Also make sure you’re eating good sources of protein like lentils, soya, milk products, eggs and goat liver"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,TextSizeCheck" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="470dp"
+                android:background="@drawable/m2"
+                android:text="Next"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,MissingConstraints,TouchTargetSizeCheck"
+                tools:layout_editor_absoluteX="79dp"
+                tools:layout_editor_absoluteY="551dp" />
+
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

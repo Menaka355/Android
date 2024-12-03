@@ -1,0 +1,82 @@
+<resources>
+    <!-- App Name and General Strings -->
+    <string name="app_name">Moms Care</string>
+    <string name="desc">Image</string>
+    <string name="button_text">My Dates</string>
+    <string name="text_view_text">Clinic Dates</string>
+    <string name="button_text1">Get Started</string>
+    <string name="set_appointment">Set Appointment</string>
+    <string name="button_text2">Image</string>
+    <string name="clinicdetails">Clinic Details</string>
+    <string name="clinicdate">Clinic Date</string>
+    <string name="text_view_text3">Select Month</string>
+    <string name="clinictime">Clinic Time</string>
+    <string name="button_text3">Submit</string>
+    <string name="already_have_account">Already have an Account, </string>
+    <string name="login">Login In</string>
+    <string name="create_account">Create an Account with Us</string>
+    <string name="user_name">User Name</string>
+    <string name="email">E-Mail</string>
+    <string name="password">Password</string>
+
+    <string name="congratulations">Congratulations, On your Pregnancy Journey!</string>
+    <string name="next_button">Next</string>
+    <string name="height_hint">Height (in cm)</string>
+    <string name="weight_hint">Weight (in kg)</string>
+    <string name="age_hint">Age (in years)</string>
+    <string name="bmi_calculator_title">BMI Calculator</string>
+    <string name="calculate_bmi_button">Calculate BMI</string>
+    <string name="pregnancy_week_button">Pregnancy Week</string>
+    <string name="greeting_text">Hi Wasanthi!</string>
+    <string name="info_text">Hi, have a healthy baby. You need to...</string>
+
+    <!-- Results and Tips Strings -->
+    <string name="results_text">Results</string>
+    <string name="your_baby_s_bones_are_continuing_to_harden_their_teeth_are_beginning_to_form_keep_eating">Your baby</string>
+    <string name="calcium_rich_foods_like_milk_cheese_yogurt_sesame_seeds">Calcium-rich foods like milk, cheese, yogurt, and sesame seeds.</string>
+    <string name="foods_rich_in_folate_including_leafy_vegetables_like_turnip_greens_spinach_romaine_lettuce_brussels_sprouts_and_broccoli">Foods rich in folate, including leafy vegetables like turnip greens, spinach, romaine lettuce, Brussels sprouts, and broccoli.</string>
+    <string name="your_baby_is_growing_rapidly_and_their_muscles_and_skin_are_forming_make_sure_you_re_eating_foods_that_are_rich_in_energy_and_protein_including">Your baby is growing rapidly, and their muscles and skin are forming. Make sure you.</string>
+    <string name="wheat_flour_coarse_grains_rice_maize_and_lentils">Wheat flour, coarse grains, rice, maize, and lentils.</string>
+    <string name="sweet_potato_banana_and_jaggery_natural_sugar">Sweet potato, banana, and jaggery (natural sugar).</string>
+    <string name="milk_skimmed_milk_powder_and_cottage_cheese">Milk, skimmed milk powder, and cottage cheese.</string>
+    <string name="lentils_soya_eggs_chicken_and_fish">Lentils, soya, eggs, chicken, and fish.</string>
+    <string name="nuts_and_oilseeds_these_can_be_powdered_and_added_to_food">Nuts and oilseeds, these can be powdered and added to food.</string>
+    <string name="your_baby_s_brain_and_vision_are_rapidly_developing_they_need_good_fat_to_help_them_grow"></string>
+    <string name="good_fat_can_be_found_in_nuts_oilseeds_fish_and_a_variety_of_cooking_oils_mustard_oil_groundnut_oil_soybean_oil_and_coconut_oil">Good fat can be found in nuts, oilseeds, fish, and a variety of cooking oils: mustard oil, groundnut oil, soybean oil, and coconut oil.</string>
+    <string name="avoid_bad_fat_like_margarine_and_reused_oil">Avoid bad fat like margarine and reused oil.</string>
+    <string name="hi_have_a_healthy_baby_you_need_to">Your String Value</string>
+
+    <!-- Strings for ImageView descriptions -->
+    <string name="search_desc">Search Icon</string>
+    <string name="upload_desc">Upload Icon</string>
+    <string name="get_started">Get Started</string>
+    <string name="todo">TODO</string>
+    <string name="mom_s_care">Mom Care</string>
+
+    <string name="profile_image">Profile Image</string>
+
+    <string-array name="food_habits_array">
+        <item>Month 3: Calcium-rich foods</item>
+        <item>Month 4: Foods rich in iron and folic acid</item>
+        <item>Month 4: Iron-rich nuts and oilseeds</item>
+        <item>Month 4: Lean meat, eggs, fish, and lentils</item>
+    </string-array>
+
+    <!-- Arrays for Preferred Languages and Roles -->
+    <string-array name="preferred_language_array">
+        <item>English</item>
+        <item>Sinhala</item>
+        <item>Tamil</item>
+    </string-array>
+    <string-array name="roles_array">
+        <item>Mom</item>
+        <item>Midwife</item>
+    </string-array>
+
+    <!-- Navigation Drawer Strings -->
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="setappointment">Set Appointment</string>
+    <string name="setdate">Set Date</string>
+    <string name="settime">Set Time</string>
+</resources>
